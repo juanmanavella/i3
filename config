@@ -158,6 +158,10 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	position top
+	colors {
+		statusline #969696
+        	#separator #575757
+	}
 # standalone:
 #        status_command i3status
 
@@ -171,6 +175,8 @@ bar {
 # Colores en la barra de titulo en foco
 #client.focused #cccccc #cccccc #fdf6e3 #859900
 
+
+# Autoruns:
 exec "setxkbmap -layout us,es"
 exec "setxkbmap -option 'grp:alt_shift_toggle'"
 exec "xfce4-clipman"
