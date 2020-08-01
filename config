@@ -186,4 +186,4 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
 # Disable Window title bar
-new_window pixel 0
+new_window pixel 1
