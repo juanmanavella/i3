@@ -187,3 +187,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 # Disable Window title bar
 new_window pixel 1
+
+# Sticky Windows
+bindsym $mod+Shift+S sticky enable
+
